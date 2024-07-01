@@ -1,0 +1,335 @@
+/* Overall */
+html {
+    width: 100vw;
+    height: 100vh;
+    cursor: default;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(17, 17, 90);
+    display: flex;
+    flex-wrap: wrap;
+}
+div {
+    border: 1px transparent red !important;
+}
+::-webkit-scrollbar {
+    display: none;
+    width: 0px;
+}
+.button {
+    width: 50px;
+    height: fit-content;
+    color: aliceblue;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+
+}
+input[type="text"], [type="number"] {
+    background-color: rgb(43, 43, 43);
+    color: aliceblue;
+    border-radius: 5px;
+}
+::placeholder {
+    color:aliceblue;
+}
+a {
+    color: rgb(255, 255, 255);
+}
+.error {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    text-align: center;
+    height: fit-content;
+    background-color: rgb(249, 142, 142);
+}
+
+/* Header */
+
+#header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(23, 26, 33);
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(78, 243, 255);
+}
+
+/* Main */
+
+#main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(17, 17, 90);
+}
+.container {
+    overflow-x: hidden;
+}
+
+
+/* Spells */
+
+#spells {
+    width:  50vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: rgb(31, 30, 46);
+    position: relative;
+    right: 0;
+    z-index: 99;
+}
+
+#manaContainer {
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: rgb(26, 29, 35);
+}
+
+h2 {
+    width: 15vw;
+    height: 2vh;
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-weight: bold;
+    width: 10vw;
+    padding-left: 3px;
+}
+
+.sInput {
+    width: 75px;
+    height: 25px;
+}
+
+#apMana {
+    width: 34vw;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+    position: relative;
+    right: 0;
+}
+#spellExample {
+    background-color: rgb(64, 89, 91);
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+}   
+form {
+    width: 50vw;
+    height: 10vh;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#spell {
+    background-color: rgb(36, 50, 67);
+    width: 50vw;
+    color: antiquewhite;
+    height: 10vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#nameS {
+    width: 100px;
+}
+#descS {
+    width: 200px;
+    height: 50px;
+    overflow: scroll;
+}
+#dmgS {
+    width: 60px;
+}
+#costS {
+    width: 50px;
+}
+#rangeS {
+    width: 50px;
+}
+#spellList {
+    width: 50vw;
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content:center;
+    gap: 5px;
+}
+.sDesc {
+    width: 20vw;
+    height: 9vh;
+    overflow: scroll;
+}
+/* Tools */
+
+#tools {
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(19, 18, 41);
+    border-right: 2px solid rgb(78, 243, 255);
+    z-index: 100;
+}
+#links {
+    background-color: rgb(19, 18, 41);
+    position: sticky;
+    border-bottom: 1px solid rgb(78, 243, 255);
+    top: 0;
+    width: 50vw;
+    padding: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: aliceblue;
+}
+.image {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 5px;
+}
+#image1 {
+    width: 350px;
+}
+#image2 {
+    width: 250px;
+}
+#image3 {
+    width: 350px;
+}
+#image4 {
+    width: 350px;
+}
+#image5 {
+    width: 425px;
+}
+#image6 {
+    width: 350px;
+}
+#image7 {
+    width: 350px;
+}
+#image8 {
+    width: 450px;
+}
+#image9 {
+    width: 200px;
+}
+#image10 {
+    width: 400px;
+}
+#image11 {
+    width: 350px;
+}
+#image12 {
+    width: 350px;
+}
+#image13 {
+    width: 350px;
+}
+#image14 {
+    width: 350px;
+}
+#image15 {
+    width: 200px;
+}
+#image16 {
+    width: 200px;
+}
+#image17 {
+    width: 375px;
+}
+
+/* Added by Jackson */
+
+#apply{
+    transition: font-size 0.1s, opacity 0.1s, font-weight 0.1s;
+}
+#apply:hover{
+    cursor: pointer;
+    opacity: 80%;
+    font-weight: bold;
+}
+#use{
+    transition: font-size 0.1s, opacity 0.1s, font-weight 0.1s;
+}
+#use:hover{
+    font-size: 90%;
+    cursor: pointer;
+    opacity: 80%;
+    font-weight: bold;
+}
+#next{
+    transition: font-size 0.1s, opacity 0.1s, font-weight 0.1s;
+}
+#next:hover{
+    font-size: 90%;
+    cursor: pointer;
+    opacity: 80%;
+    font-weight: bold;
+}
+#saveS{
+    transition: font-size 0.1s, opacity 0.1s, font-weight 0.1s;
+    margin-right: 5px;
+}
+#saveS:hover{
+    font-size: 90%;
+    cursor: pointer;
+    opacity: 80%;
+    font-weight: bold;
+}
+#tools{
+    border-radius: 20px;
+    border-right: 4px solid rgb(78, 243, 255);
+}
+#header{
+    border-radius: 20px;
+    border-bottom: 4px solid rgb(78, 243, 255);
+}
+#spells{
+    border-radius: 20px;
+    
+    border-left: 4px solid rgb(78, 243, 255);
+}
+#manaDis{
+    margin-top: 40px;
+}
+#manaContainer{
+    border-radius: 20px;
+}
+a{
+    transition: font-weight 0.1s;
+}
+a:hover{
+    font-weight: bold;
+}
